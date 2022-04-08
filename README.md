@@ -20,6 +20,8 @@ PIMS旨在最恶劣的安全条件下也可以保证通讯的安全性和即时�
     - [ ] 聊天创建
     - [ ] 聊天信息的发送和接收
 - [数据结构](struct)
-    - [ ] [基础数据结构](struct/basic-struct.md)
+    - [ ] [基础数据结构](struct/basic.md)
+    - [ ] [注册数据结构](struct/register.md)
+    - [ ] [解密后的用户数据](struct/user-data-decrypted.md)
 
 注意：请在看其他文档之前浏览一遍技术概览，不然很可能会对细节疑惑
