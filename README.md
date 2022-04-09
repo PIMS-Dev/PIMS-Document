@@ -16,14 +16,13 @@ PIMS旨在最恶劣的安全条件下也可以保证通讯的安全性和即时�
 - [技术概览](overview.md)
 - [细节定义](defines.md)
 - [通讯协议](protocol)
-    - [ ] [注册](protocol/create-user.md)
+    - [ ] [注册](protocol/register.md)
     - [x] [获取用户数据](protocol/get-user-data.md)
+    - [ ] [获取用户公钥](protocol/get-user-PubKey.md)
     - [ ] 聊天创建
     - [ ] 聊天信息的发送和接收
 - [数据结构](struct)
-    - [ ] [基础数据](struct/basic.md)
-    - [ ] [注册数据](struct/register.md)
-    - [x] [获取用户数据](struct/get-user-data.md)
+    - [ ] [通讯包结构](struct/communicate-package.md)
     - [ ] [解密后的用户数据](struct/user-data-decrypted.md)
 
 注意：请在看其他文档之前浏览一遍技术概览，不然很可能会对细节疑惑
