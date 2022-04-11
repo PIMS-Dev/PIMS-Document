@@ -14,9 +14,9 @@ ChatList数组的内容
 | 聊天对象 | 聊天对象 |
 
 聊天对象结构
-| 字段名   | 内容                  | 备注       |
-| -------- | --------------------- | ---------- |
-| ChatName | 聊天的名称            |            |
-| ChatID   | 聊天的ID              | UUID       |
-| ChatKey  | 聊天的ChaCha20密钥    | base64形式 |
-| ChatNonce| 聊天的ChaCha20的Nonce | base64形式 |
+| 字段名   | 内容       | 备注       |
+| -------- | ---------- | ---------- |
+| ChatName | 聊天的名称 |            |
+| ChatID   | 聊天的ID   | UUID       |
+| ChatKey  | ChatKey    | base64形式 |
+| ChatNonce| ChatNonce  | base64形式 |

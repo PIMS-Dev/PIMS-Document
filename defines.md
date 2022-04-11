@@ -8,3 +8,6 @@ saltUsername为字符串"PIMS-USER-NAME-SALT"
 
 ## 密码Hash和用户数据ChaCha20密钥
 用户密码+[saltPassword](defines.md#各种盐)进行SHA3-256(后称PasswordHash)作为ChaCha20的密钥
+
+## ChatID
+随机生成一段长度不低于64byte的数组，进行SHA3-256后作为唯一的聊天ID(ChatID)

@@ -17,7 +17,7 @@
 ## 服务端返回状态码为0x01
 客户端生成一个ECDSA私钥PriKey并获取对应的公钥PubKey，生成[saltPassword](defines.md#各种盐)
 
-客户端向用户获取用户名和用户密码， 计算[唯一用户id](../defines.md#唯一用户id)和[密码Hash和用户数据ChaCha20密钥](../defines.md#密码hash用户数据和chacha20密钥)
+客户端向用户获取用户名和用户密码， 计算[唯一用户id](../defines.md#唯一用户id)和[密码Hash和用户数据ChaCha20密钥](../defines.md#密码hash用户数据和ChaCha20密钥)
 
 客户端创建初始的[用户数据](../struct/user-data-decrypted.md#用户数据结构)
 

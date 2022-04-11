@@ -1,5 +1,5 @@
-# 获取用户公钥
-客户端获取用户名， 计算[唯一用户id](../defines.md#唯一用户id)，并向服务端发送[用户公钥请求包](../struct/communicate-package.md#用户公钥请求包)
+# 批量获取用户公钥
+客户端获取用户名列表， 计算[唯一用户id](../defines.md#唯一用户id)列表，并向服务端发送[用户公钥请求包](../struct/communicate-package.md#用户公钥请求包)
 
 服务端返回[用户公钥下发包](../struct/communicate-package.md#用户公钥下发包)， 状态码列表如下
 
